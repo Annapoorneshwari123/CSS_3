@@ -1,0 +1,152 @@
+@media (max-width:767px){
+    header{
+        flex-direction: column;
+        align-items:start;
+    }
+    header nav{
+        width: 100%;
+    }
+    header ul{
+        flex-direction: column;
+    }
+    header ul li{
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    header button{
+        width: 100%;
+    }
+    .main-container{
+        min-height:700px ;
+        padding-left: 20%;
+        padding-right: 20%;
+
+    }
+    .banner1-left .heading{
+        font-size: 3rem;
+    }
+    .banner2 .heading{
+        font-size: 4rem;
+    }
+    .main-container{
+        min-height:700px ;
+        margin: 30px;
+    }
+    .content{
+        min-height:160px ;
+    }
+    .content ul{
+       flex-wrap: wrap;
+    }
+    footer{
+        width:100%;
+        flex-direction: column;
+    }
+    footer .form input,button{
+width: 100%;
+    }
+    .footer-main{
+        flex-direction: column;
+        align-items:start;
+    }
+    .footer-main nav{
+        width: 100%;
+    }
+    .footer-main ul{
+        flex-direction: column;
+    }
+    .footer-main ul li{
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .footer-main button{
+        width: 100%;
+    }
+    .posts{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:576px){
+    .banner1{
+            flex-direction: column;
+            align-items: start;
+            padding: 50px 30px;
+    }
+    .banner1-right{
+        margin-top: 30px;
+    }
+    .banner1-left .heading{
+        font-size: 2.5rem;
+    }
+    .banner1-right img{
+        border: 5px solid #fff;
+        border-radius: 100% 100% 0px 0px;
+        padding: 20px;
+    }
+    .banner1-left button{
+        width: 100%;
+    }
+    .main-container{
+        min-height:700px ;
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-right: 0;
+        margin-left: 20px;
+
+    }
+    .content{
+        min-height:150px ;
+    }
+    .content ul{
+       flex-wrap: wrap;
+    }
+    .featured-post .posts {
+        flex-direction: column;
+    }
+    .post-1,.post-2{
+        width: 100%;
+        margin: 0;
+    }
+    .author span{
+        margin-left:55% ;
+    }
+    footer{
+        width: 100%;
+        min-height:700px ;
+        margin-left: 20px;
+        padding-top: 60px;
+    }
+    footer .form{
+        width: 70%;
+    }
+    .footer-main{
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+}
+@media (max-width:367px){
+    .banner1-left .heading{
+        font-size: 2rem;
+    }
+    .main-container{
+        min-height:700px ;
+    }
+    .content{
+        min-height:250px ;
+    }
+    .content ul{
+       flex-wrap: wrap;
+    }
+    .post-1,.post-2{
+        width: 100%;
+    }
+    .author span{
+        margin-left:35% ;
+    }
+    footer{
+        width: 100%;
+        min-height: 600px;
+    }
+}
