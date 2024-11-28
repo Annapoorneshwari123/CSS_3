@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* p1.html */
+.flex-container1{
+    padding: 30px;
+    background-color: #0c0c0c;
+/* flex properties for parent */
+display: flex;
+flex-direction: row;
+/* flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse; */
+
+flex-wrap: wrap;/*multi line(if space is not available for next items ,the items displays in next line*/
+/* flex-wrap: nowrap;single line */
+
+/* column-gap: 30px;
+row-gap: 30px; */
+gap:30px;
+
+}
+.flex-item{
+    padding: 30px;
+    background-color: darkgreen;
+    color: #fff;
+    min-width: 200px;
+}
