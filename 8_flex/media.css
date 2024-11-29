@@ -5,4 +5,16 @@
     .flex-container1 .flex-item{
         width: 100%;
     }
+    .flex-item1{
+        width: 100%;
+        background-color: darkmagenta;
+    }
+    .flex-item2{
+        width: 100%;
+    }
+}
+@media (max-width:250px){
+    .flex-item4{
+        min-width: 100% !important;
+    }
 }
