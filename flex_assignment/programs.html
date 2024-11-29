@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./media.css">
+    <style>
+       *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    min-width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    min-width: 80%;
+    min-height:200px;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+.content h1{
+font-size: 2.2rem;
+font-weight: 600;
+}
+.subtitle{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.content .divider{
+    width: 75px;
+    border:3px solid #ccc ;
+    position: absolute;
+    right: 27%;
+    bottom: 48%;
+    transform: translateX(-360%);
+}
+.container-hero{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+gap:30px;
+flex-wrap: wrap;
+margin: 20px;
+} 
+.containers{
+   width: 400px;
+    min-height:400px;
+    border: 2px solid #ccc;
+    padding: 40px;
+}
+.image img{
+    flex: 1;
+    
+}
+.containers h2{
+    font-size: 1.7rem;
+    margin-top: 15px;
+}
+    </style>
+</head>
+<body>
+    <section class="main-container">
+        <div class="content">
+            <h1 class="heading">ALL OUR PROGRAMS</h1>
+            <div class="divider"></div>
+            <br>
+            <p class="subtitle">At The Marvegos Fine Art School we encourage creativity through art — making one’s own choices within a framework is the essence of creative choice.</p>
+        </div>
+        <div class="container-hero">
+            <div class="containers">
+                <img src="./images/img1.jpg" alt="logo..">
+                <h2>Fine Art Fundamentals</h2>
+                <p class="subtitle">Structured as a developmental program spanning four sessions during one school year.</p>
+            </div>
+            
+                <img src="	https://images03.nicepage.com/c461c07a441a5d220e8feb1a/5866c8edb16a54a981263e45/rfes.jpg" alt="girl image.." height="400">
+            
+            <div class="containers">
+                <img src="./images/img2.jpg" alt="logo..">
+                <h2>Art Camps & Classes</h2>
+                <p class="subtitle">Our summer art camps allow kids to explore the full variety of art media from drawing still life.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

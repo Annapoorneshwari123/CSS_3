@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning & Development</title>
+    <link rel="stylesheet" href="./media.css">
+    <style>
+        /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;  
+}
+.container {
+    width: 100%;
+    min-height: 90vh;
+    padding: 20px;
+    position: relative;
+}
+.container::after{
+    content: '';
+    min-width: 100%;
+    min-height: 380px;
+    background-color: #93c4d2;
+    position: absolute;
+    bottom:0;
+    left:0;
+    transform: translateY(60px);
+    z-index: -1;
+}
+/* .bottom-bg{
+    width: 100%;
+    min-height: 350px;
+    background-color: #93c4d2;
+    margin-top: 40px;
+    position: relative;
+} */
+header{
+    width: 70%;
+    min-height:200px ;
+    text-align: center;
+    margin: auto;
+}
+header h1 {
+    font-size: 3.1rem;
+    color: #93c4d2;
+    font-weight: 800;
+}
+
+header p {
+    color: #131212;
+    margin: 10px 0 20px;
+    font-size: 1.3rem;
+    line-height: 38px;
+    margin-bottom: 140px;
+}
+
+.services {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    z-index: 4;
+    
+}
+
+.service {
+    background-color: #fff;
+    /* border: 1px solid #ddd; */
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* position: absolute;
+    top: -90px;
+    transform: translateX(19%); */
+}
+
+.icon img{
+    font-size: 2em;
+    background-color: #93c4d2;
+    margin-bottom: 10px;
+    /* border: 1px solid #5ab1c5; */
+    padding:20px;
+    border-radius: 100%;
+}
+
+h2 {
+    color: #93c4d2;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    letter-spacing: 2.5px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #000;
+    line-height:2;
+    font-style: italic;
+    font-weight: 100;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+            <header>
+                <h1>Engaging learning & development, delivered brilliantly</h1>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+            </header>
+            <!-- <div class="bottom-bg"> -->
+            <div class="services">
+                <div class="service">
+                    <div class="icon">
+                        <img src="	https://assets.nicepagecdn.com/d2cc3eaa/1649510/images/e678a0d6.png" alt="img..." width="60" height="60">
+                    </div>
+                    <h2>COURSES</h2>
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <img src="https://assets.nicepagecdn.com/d2cc3eaa/1649510/images/e185a73b.png" alt="img..." width="60" height="60">
+                    </div>
+                    <h2>CONTENT</h2>
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <img src="https://assets.nicepagecdn.com/d2cc3eaa/1649510/images/dea8b784.png" alt="img..." width="60" height="60">
+                    </div>
+                    <h2>SERVICES</h2>
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+</body>
+</html>

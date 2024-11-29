@@ -1,0 +1,50 @@
+@media(max-width:450px){
+    /* programs.html */
+    .main-container{
+        margin: 20px;
+    }
+    .content{
+       min-width: 100%;
+        text-align: center;
+    }
+    .container-hero{
+        margin-top: 15px;
+    }
+    .content h1{
+        font-weight: 700;
+        font-size: 1.5rem;    
+    }
+    .content .subtitle{
+        margin-top: 30px;
+    }
+    .content .divider{
+       right: 0;
+       bottom: 59%;
+       transform: translateX(-250%);
+    }
+    /* collabrative.html */
+
+    .contents h1{
+        font-size:2.7rem ;
+        /* padding: 20% 10%; */
+        /* padding-top: 20%; */
+    }
+    /* learn&devep.html */
+    .container{
+        min-width: 100%;
+    }
+    .container::after{
+        content: '';
+        min-height: 500px ;
+    }
+    .services{
+        background-color: #93c4d2;
+    }
+    header{
+        width: 100%;
+    }
+    header h1{
+        font-size: 1rem !important;
+    }
+
+}
